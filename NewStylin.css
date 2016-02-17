@@ -1,0 +1,320 @@
+/*
+making headers n shit
+*/
+
+header {
+	background-color: #DDDDDD;
+	position:relative;
+	border: 5px solid black;
+ }
+
+ header.home {
+    background-color: rgba(255, 235, 153, 0.7);
+ }
+ 
+.tinyHeader {
+    background-color: #DDDDDD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.selectedHeader {
+    background-color: rgba(255,255,255,0.1);
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid red;
+}
+
+ /*
+ MY LINKS
+ */
+ a {
+    color: black;
+    font-family: Arial, Sans-serif;
+    text-decoration: none;
+ }
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+p {
+    font-family: Arial, Sans-serif;
+    font-size: 20px;
+}
+
+
+/*
+bodies
+*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#view1 {
+    background-image: url("/home/j/o/joarse/Documents/Interaktivdata/interaktivdata/dinnerplanner-html-master/images/happy-family.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacityBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    top: 600px;
+
+} 
+
+.view2 {
+    width: 17%;
+    height: 100%; 
+    position: absolute;
+    border-right: 5px solid black;
+}
+
+.view3 {
+    width: 83%;
+    height: 100%;
+    float: right;
+}
+.view4 {
+    width: 83%;
+    height: 100%;
+    float: right;
+}
+
+#view5 {
+    width: 100%;
+    height: 100%;
+}
+.subHeader {
+    background-color: #FFDB94; 
+    float: right;
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+#foodRow {
+    position: relative;
+    width: 82%;
+    height: 100%;
+    float: right;
+    letter-spacing: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#spalt-right {
+    float: left;
+    height: 80%;
+    text-align: left;
+}
+
+
+#spalt-right-right {
+    background-color: #FFDB94;
+    width: 50%;
+    height: 80%;
+    float: right;
+    border: 5px solid black;
+    border-top: none;
+    overflow: scroll;
+    padding-left: 3%;
+}
+#split {
+    width: 50%;
+    height: 600px;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*
+buttons and inputs
+*/
+
+
+.Btn {
+    padding: 8px 15px;
+    background-color: #FFA366;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    cursor: hand;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 8px black;
+    border: 3px solid black;
+
+}
+.confBtn {
+    padding: 8px 15px;
+    background-color: #FFA366;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer; 
+    cursor: hand;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 4px black;
+    border: 3px solid black;
+
+}
+.endBtn {
+    padding: 8px 15px;
+    background-color: #FFA366;
+    margin-bottom: 10px;
+    align: right;
+    cursor: pointer; 
+    cursor: hand;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.searchBtn {
+    width:80px;
+    height:25px;
+    margin-right: 5pc;
+    background-color: #FFA366;
+    cursor: pointer; 
+    cursor: hand;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 1px black;
+    border: 1px solid black;
+
+}
+
+#stepper {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+}
+
+/*
+images!
+*/ 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgngt {
+    max-width: 140px ;
+    max-height: 140px;
+}
+.prep {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 2px solid black;
+    max-width: 140px ;
+    max-height: 140px;
+
+}
+
+/*
+fonts
+*/
+#line {
+    text-align: center;
+    background-color: black;
+    height: 2px;
+
+}
+
+#txthead {
+    font-size: 80px;
+    margin: 20px;
+}
+
+.header1Txt {
+    color: black;
+    letter-spacing: -3px;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+}
+
+.header2Txt {
+    color: black;
+    font-style: italic;
+    letter-spacing: 1px;
+
+}
+
+#defaultTxt {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.mydinner {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.boxTxt {
+    color: black;
+    margin-left: 5%;
+
+}
+.boxTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5%;
+}
+
+.prepTitle {
+    font-size: 30px;
+    color: black;
+}
+.prepTxt {
+    float:right;
+    color: black;
+    margin-left: 30%;
+
+}
+.rightTxt {
+    float: right;
+    margin-right: 25%;
+}
