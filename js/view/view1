@@ -1,0 +1,9 @@
+var View1 = function(container, model) {
+	container.append("<div class='opacityBox'>\
+	<h1 class = 'boxTitle'> A Home Dinner Planner! </h1>\
+	<hr id = 'line'>\
+	<p class = 'boxTxt'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices lorem felis, vitae vehicula est molestie in. Fusce suscipit congue lacus eget egestas. Nulla ligula turpis, sodales at aliquam fermentum, mattis at nunc. Aliquam nec magna tristique ex vulputate egestas vel vel ex. Morbi sollicitudin pharetra dolor vel dignissim. Vivamus luctus, massa in vehicula varius, sem eros mattis velit, nec sollicitudin nisl nulla ac erat. Nunc ut imperdiet dui. Ut sed libero velit. Ut sit amet massa diam. Donec nec ex nulla.Duis nisl erat, aliquet vulputate ullamcorper nec, facilisis sit amet velit. Suspendisse lacus elit, finibus consectetur erat sed, placerat semper tellus. Sed neque turpis, ornare a pulvinar eu, finibus id justo. Nam lacinia, justo in maximus pretium, mi ante scelerisque mi, commodo cursus mauris dui id ante. Suspendisse a metus erat. Vivamus eu lectus ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec placerat sapien id consectetur vehicula.</p>\
+	<h2 class = 'boxTitle'>Start quickly!</h2>\
+	<hr id = 'line'>\
+	<button type='button' class = 'Btn'> <a href='selectdishes.html'> Create a new dinner!</a></button></div>");
+}
