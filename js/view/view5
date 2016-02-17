@@ -1,0 +1,11 @@
+var View5 = function(container, model) {
+	container.append("<div id = 'defaultTxt' class = 'subHeader'>\
+    	<p class = 'boxTitle'> My dinner <span> x </span> People</p>\
+      <button type = 'Button' class = 'endBtn'>\
+        <a href = 'screenafter.html'> Go back and edit dinner </a></button></div>");
+	container.append("<div> <img src='/home/j/o/joarse/Documents/Interaktivdata/interaktivdata/dinnerplanner-html-master/images/meatballs.jpg' alt='bawls'>\
+    <img src='/home/j/o/joarse/Documents/Interaktivdata/interaktivdata/dinnerplanner-html-master/images/meatballs.jpg' alt='bawls'>\
+    <img src='/home/j/o/joarse/Documents/Interaktivdata/interaktivdata/dinnerplanner-html-master/images/meatballs.jpg' alt='bawls'> </div><hr>\
+    <button type = 'Button' class = 'Btn'><a href = 'dinnerpreperation.html'> Print full recipe!</a></button>");
+
+}
